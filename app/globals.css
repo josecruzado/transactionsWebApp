@@ -1,0 +1,28 @@
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-btn {
+  background-color: #95a5a6;
+  margin-left: 10px;
+}
+
+.cancel-btn:hover {
+  background-color: #7f8c8d;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-light);
+}

@@ -1,0 +1,47 @@
+.transactionForm {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-light);
+}
+
+.formGroup input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formGroup select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 20px;
+}
+
+.radioGroup label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radioGroup input {
+    width: auto;
+    margin-right: 5px;
+    color: blue;
+}

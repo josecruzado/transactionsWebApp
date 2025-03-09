@@ -1,0 +1,82 @@
+.transactions {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.transactionsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filterControls select {
+    width: auto;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.transactionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transactionItem:last-child {
+    border-bottom: none;
+}
+
+.transactionInfo {
+    flex: 1;
+}
+
+.transactionName {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.transactionCategory {
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.transactionAmount {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.incomeAmount {
+    color: var(--income-color);
+}
+
+.expenseAmount {
+    color: var(--expense-color);
+}
+
+.transactionActions {
+    display: flex;
+    gap: 10px;
+}
+
+.editBtn,
+.deleteBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    color: var(--text-light);
+}
+
+.editBtn:hover {
+    color: var(--secondary-color);
+}
+
+.deleteBtn:hover {
+    color: var(--expense-color);
+}
